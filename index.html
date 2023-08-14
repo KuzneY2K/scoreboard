@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans">
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@600&display=swap" rel="stylesheet">
+    <title>Scoreboard Document</title>
+</head>
+
+<body>
+    <div class="container-fluid m-0 p-0 main-container">
+        <div class="container mt-5 rounded-5 shadow">
+            <section class="row m-0 p-0 score-board">
+                <div class="score-board-container d-flex flex-row">
+                    <div class="col-6 team-one text-center mt-5">
+                        <h1>HOME</h1>
+                        <h1 class="team-one-score"></h1>
+                    </div>
+                    <div class="col-6 team-two text-center mt-5">
+                        <h1>AWAY</h1>
+                        <h1 class="team-two-score"></h1>
+                    </div>
+                </div>
+            </section>
+            <section class="row m-0 p-0">
+                <div class="col-12 d-flex flex-row justify-content-around">
+                    <div class="button-container mt-5 p-0 d-flex flex-column">
+                        <button class="btn btn-outline-light team-one-button py-3 px-5 shadow border-3">Home +1</button>
+                        <button class="btn btn-outline-light team-one-button-plus3 py-3 px-5 mt-5 shadow border-3">Home
+                            +3</button>
+                    </div>
+                    <div class="button-container mt-5 p-0 d-flex flex-column">
+                        <button class="btn btn-outline-light team-two-button py-3 px-5 shadow border-3">Away +1</button>
+                        <button class="btn btn-outline-light team-two-button-plus3 py-3 px-5 mt-5 shadow border-3">Away
+                            +3</button>
+                    </div>
+                </div>
+            </section>
+            <section class="row p-0 m-0">
+                <div class="col-12 p-0 m-0">
+                    <div class="div reset-button-container d-flex flex-row justify-content-center m-5">
+                        <button class="btn btn-danger reset-button py-3 px-5 rounded shadow">Reset Scores</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

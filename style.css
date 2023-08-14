@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(95, 92, 115);
+    transition: filter ease-in 1s;
+}
+
+.team-one-score {
+    font-family: 'Tomorrow';
+    font-size: 4rem;
+    transition: color ease-in-out .5s;
+    position: relative;
+    top: 10rem;
+    color: white;
+}
+
+.team-one-score.lead {
+    color: green;
+}
+
+.team-two-score {
+    font-family: 'Tomorrow';
+    font-size: 4rem;
+    transition: color ease-in-out .5s;
+    position: relative;
+    top: 10rem;
+    color: white;
+}
+
+.team-two-score.lead {
+    color: green;
+}
+
+.team-one {
+    position: relative;
+    top: 5rem;
+    font-family: 'Tomorrow';
+    color: white;
+}
+
+.team-two {
+    position: relative;
+    top: 5rem;
+    font-family: 'Tomorrow';
+    color: white;
+}
+
+.button-container {
+    position: relative;
+    top: 25rem;
+}
+
+.container {
+    min-height: 90vh;
+    background-image: url('https://images.unsplash.com/photo-1487466365202-1afdb86c764e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    scale: 1.5;
+}
